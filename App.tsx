@@ -5,6 +5,7 @@ import { Features } from './components/Features';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { QuickQuiz } from './components/QuickQuiz';
+import {MCQMethodology} from './components/MCQMethodology';
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,7 @@ const App: React.FC = () => {
       <Navbar />
       <main className="flex-grow">
         <Hero />
+        <MCQMethodology/>
         <QuickQuiz />
         <Features />
       </main>

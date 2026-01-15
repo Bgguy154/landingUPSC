@@ -47,7 +47,8 @@ export const QuickQuiz: React.FC = () => {
                   <span className="text-amber-500 font-bold">Explanation:</span> The Ninth Schedule was added by the <span className="text-white">1st Amendment (1951)</span> during Jawaharlal Nehru's tenure to protect land reform laws from judicial review.
                  </p>
               </div>
-              <button onClick={() => { setAnswered(false); setSelected(null); }} className="text-amber-500 font-bold hover:underline">Next Question →</button>
+              <p className='inline px-2'>For More Questions</p>
+              <button onClick={() => { setAnswered(false); setSelected(null); }} className="text-amber-500 font-bold hover:underline">Please Login →</button>
             </div>
           )}
         </div>
